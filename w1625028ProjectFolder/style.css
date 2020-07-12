@@ -1,0 +1,279 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*--------------Navigationbar---------------*/
+#nav-bar
+{
+	position: sticky;
+	top:0;
+	z-index: 10;
+
+}
+
+.navbar-brand img
+{
+	
+	height: 40px;
+	padding-left: 30px;
+}
+.navbar-Nav li
+{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	cover: #007bff!important;
+}
+.navbar
+{
+	background: #fff;
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+	color:#555!important;
+	font-weight:600;
+	font-size:16px;
+}
+/*slider*/
+#slider
+{
+ width: 100%;
+}
+.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+	}
+.carousel-caption h5
+{
+	colour: #fff;
+	font-size: 42px;
+
+}
+/*-------------About us-----------------*/
+#about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+#about .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content
+{
+	padding-top: 20px;
+	
+}
+/*---------------Membership----------------*/
+#memberships
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(membership.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#memberships h1
+{
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 10px;
+	
+}
+#memberships h1::after
+{
+	content:'';
+	background: #efefef;
+	display: block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+	
+}
+ .memberships
+{
+	margin-top: 40px;
+}
+.icon
+{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 20px;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+}
+#memberships p
+{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-right:auto;
+	color: #ccc;
+}
+.memberships .col-md-6:hover{
+	background: #007bff;
+	cursor: pointer;
+	transition: 0.7s;
+}
+/*----loginpage-----*/
+#login-box
+{
+	position: relative;
+	margin:5% auto;
+	height:400px;
+	width:600px;
+	background: #fff;
+	box-shadown: 0 2px 4px rgba(0,0,0,0.6);
+}
+.left-box
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 300px;
+}
+h1
+{
+	margin: 0 0 20px 0;
+	font-weight: 300;
+	font-size:28px;	
+}
+
+input[type="text"],
+input[type="password"]
+{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	padding: 4px;
+	width: 220px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: sans-serif;
+	font-size: 15px;
+	transition: 0.2s ease;
+}
+input[type="submit"]
+{
+	margin-bottom: 28px;
+	width: 120px;
+	height:32px;
+	background: #f44336;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+    font-family: sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+	cursor : pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+	background: #ff5722;
+	transition: 0.2s ease;
+	
+}
+.right-box
+{
+	position: absolute;
+	top: 0;
+	right:0;
+	box-sizing: border-box;
+	padding:40px;
+	width:300px;
+	height:400px;
+	background-image: url(signupBack.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.or
+{
+	position: absolute;
+	top: 180px;
+	left: 280px;
+	width: 40px;
+	height: 40px;
+	background: #efefef;
+	border-raduis: 50%;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+	line-hight:40px;
+	text-align: center;
+}
+.right-box .signinwith
+{
+	display: block;
+	margin-bottom: 40px;
+	font-size:28px;
+	color: #fff;
+	text-align:center;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.6)
+}
+
+button.social
+{
+    margin-bottom: 20px;
+	width:220px;
+	height:36px;
+	border:none;
+	border-radius:2px;
+	color: #fff;
+	font-family: sans-serif;
+	transition: 0.2s ease;
+	cursor: pointer;
+
+}
+
+.facebook
+{ 
+	background: #32508e;
+	
+}
+.twitter
+{ 
+	background: #55acee;
+	
+}
+.google
+{ 
+	background: #dd4b39;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
